@@ -1,0 +1,54 @@
+{
+  "name": "Trashcore-md",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with Multi-Number Support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+   "@whiskeysockets/baileys": "github:Tennor-modz/MD-Baileys",
+    "@octokit/rest": "^20.0.2",
+    "@hapi/boom": "^10.0.1",
+    "api-dylux": "^1.0.0",
+    "axios": "^1.2.5",
+    "awesome-phonenumber": "^6.4.0",
+    "btch-downloader": "^1.0.0",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "didyoumean": "^1.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "file-type": "^18.7.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.16.1",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.6.0",
+    "mime-types": "^2.1.35",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1",
+    "node-os-utils": "^1.3.7",
+    "performance-now": "^2.1.0",
+    "pino": "^8.17.0",
+    "similarity": "^1.2.1",
+    "steno": "^1.0.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "yargs": "^17.7.2",
+    "yt-search": "2.12.1",
+    "sharp": "^0.32.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys",
+    "Trashcore-md"
+  ],
+  "author": "Trashcore",
+  "license": "MIT"
+}
